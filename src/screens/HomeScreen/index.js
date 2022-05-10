@@ -51,6 +51,7 @@ const HomeScreen = props => {
 								text="Sign in with Email"
 							/>
 							<CustomButton
+								whiteText
 								text="Log in with Email"
 							/>
 						</View>

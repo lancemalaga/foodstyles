@@ -4,7 +4,7 @@ export default StyleSheet.create({
 	customButton: {
 		borderRadius: 50,
         width: '100%',
-        paddingVertical: 17,
+        paddingVertical: 15,
         marginVertical: 10,
         display: 'flex',
         flexDirection: 'row',
@@ -12,8 +12,9 @@ export default StyleSheet.create({
         justifyContent: 'center'
 	},
     loginButtonText: {
-        fontSize: 16,
+        fontSize: 18,
         fontWeight: '600',
+        fontFamily: 'ProximaNovaA-Semibold',
         textAlign: 'center',
         color: '#434343',
     },
