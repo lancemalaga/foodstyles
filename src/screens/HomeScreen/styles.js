@@ -13,7 +13,8 @@ export default StyleSheet.create({
 		alignItems: 'center',
 	},
 	logoImg: {
-    aspectRatio: 0.5,
+    // aspectRatio: 0.5,
+		width: 100,
     resizeMode: 'contain',
 	},
 	signInButtons: {
