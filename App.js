@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
+import { Fragment } from 'react/cjs/react.production.min';
 import {
   SafeAreaView,
   StyleSheet,
@@ -28,17 +29,10 @@ const AppContainer = () => {
 
 const App = () => {
   return (
-    <SafeAreaView style={styles.container}>
+    <Fragment>
       <AppContainer/>
-    </SafeAreaView>
+    </Fragment>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'rgb(243, 196, 66)'
-  }
-});
 
 export default App;
